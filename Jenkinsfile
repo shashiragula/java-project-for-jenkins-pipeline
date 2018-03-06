@@ -11,7 +11,7 @@ pipeline {
 	stage('Build') {
  //           agent { docker 'maven:3-alpine' } 
             steps {
-                echo ‘Build Stage’
+                echo 'Build Stage'
                 sh ‘java -version'
             }
         }
