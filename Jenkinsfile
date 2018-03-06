@@ -1,11 +1,11 @@
 pipeline {
     agent any 
     stages {
-        stage(‘SCM Checkout’) {
+        stage('SCM Checkout') {
  //           agent { docker 'maven:3-alpine' } 
             steps {
-                echo ‘SCM Checkout stage’
-                sh ‘java -version'
+                echo 'SCM Checkout stage'
+                sh 'java -version'
             }
         }
 	stage('Build') {
